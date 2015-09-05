@@ -1,6 +1,6 @@
-## SimpleInteractor
+## Simple Interactor
 
-SimpleInteractor is a simple wrapper for your PORO classes. It allows to use *dot notation* to execute a class
+SimpleInteractor is a simple wrapper for your PORO classes.
 
 ## Installation
 
@@ -45,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/simple_interactor.
+Bug reports and pull requests are welcome on GitHub at https://github.com/webstreak/simple_interactor.
 
 
 ## License
