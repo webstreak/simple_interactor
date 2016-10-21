@@ -36,6 +36,9 @@ class MyInteractor < SimpleInteractor
  end
 
 end
+
+# and use it
+MyInteractor.perform param1, param2
 ```
 
 ## Development
