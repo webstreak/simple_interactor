@@ -10,7 +10,7 @@ machine:
 
 dependencies:
   pre:
-    - gem uninstall bundler -v '1.13.5'
+    - gem install bundler -v '1.13.5'
     - ./bin/setup
 
 test:
