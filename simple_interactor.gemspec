@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'simple_interactor'
   spec.version       = SimpleInteractor::VERSION
   spec.authors       = ['Alexander Belyaev']
-  spec.email         = ['alexbel@hush.com']
+  spec.email         = ['alex@webstreak.com']
 
   spec.summary       = 'SimpleInteractor'
   spec.description   = 'A base class for your interactors'
