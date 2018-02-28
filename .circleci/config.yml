@@ -25,7 +25,6 @@ jobs:
         - ~/virtualenvs
         - ~/.bundle
         - ~/.cache/bower
-    - run: bundle exec rake db:create db:migrate --trace
     - run: bundle exec rspec
     - store_test_results:
         path: /tmp/circleci-test-results
