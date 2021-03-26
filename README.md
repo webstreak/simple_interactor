@@ -1,6 +1,6 @@
 ![Tests](https://github.com/webstreak/simple_interactor/actions/workflows/ci.yml/badge.svg)
 [![Gem Version](https://badge.fury.io/rb/simple_interactor.svg)](https://badge.fury.io/rb/simple_interactor)
-[![RubyGems](http://img.shields.io/gem/dt/edmunds_api.svg?style=flat)](http://rubygems.org/gems/edmunds_api)
+[![RubyGems](https://img.shields.io/gem/dt/simple_interactor.svg?style=flat)](https://rubygems.org/gems/simple_interactor)
 
 SimpleInteractor is a simple wrapper for your PORO classes.
 
