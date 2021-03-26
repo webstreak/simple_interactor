@@ -8,7 +8,7 @@ SimpleInteractor is a simple wrapper for your PORO classes.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'simple_interactor', '~> 1.0.0'
+gem 'simple_interactor', '~> 1.0.1'
 ```
 
 And then execute:

@@ -1,6 +1,6 @@
 class SimpleInteractor
 
-  VERSION = '1.0.0'
+  VERSION = '1.0.1'
 
   def self.expected_params(*params_names)
     instance_variable_set :@params_names, params_names
