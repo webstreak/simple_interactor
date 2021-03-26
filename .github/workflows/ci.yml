@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: master
+
+env:
+  RACK_ENV: test
+
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        # Due to https://github.com/actions/runner/issues/849, we have to use quotes for '3.0'
+        ruby: [2.4, 2.5, 2.6, 2.7, '3.0']
+
+    name: Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Setup ruby
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
+
+      - name: Run spec
+        run: |
+          bundle exec rspec
