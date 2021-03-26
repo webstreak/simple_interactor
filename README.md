@@ -1,4 +1,4 @@
-[![Circle CI](https://circleci.com/gh/webstreak/simple_interactor.svg?style=shield)](https://circleci.com/gh/webstreak/simple_interactor)
+![Tests](https://github.com/webstreak/simple_interactor/actions/workflows/ci.yml/badge.svg)
 [![Gem Version](https://badge.fury.io/rb/simple_interactor.svg)](http://badge.fury.io/rb/simple_interactor)
 
 SimpleInteractor is a simple wrapper for your PORO classes.
